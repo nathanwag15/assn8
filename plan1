@@ -1,0 +1,32 @@
+Requirements specification
+The program will discover all of the fluky numbers from 1 - 10000
+It will also read out the time it takes to find them.
+
+System Analysis
+The system will use loops to go through 1 - 10000 and discover all the fluky numbers
+Once the system gets to 7 fluky numbers it will end the loop since there are only 7 fluky numbers from 1 - 10000
+
+System Design
+The program will use the random and the time modules.
+
+Test:
+Fluky Number:  8
+Fluky Number:  22
+Fluky Number:  25
+Fluky Number:  291
+Fluky Number:  386
+Fluky Number:  1513
+Fluky Number:  3873
+Total Time:    1.51
+Total Loops:   7498128
+
+Result:
+Fluky Number:  8
+Fluky Number:  22
+Fluky Number:  25
+Fluky Number:  291
+Fluky Number:  386
+Fluky Number:  1513
+Fluky Number:  3873
+Total Time:    1.51
+Total Loops:   7498128
